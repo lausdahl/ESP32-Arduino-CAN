@@ -39,9 +39,11 @@
 #include <math.h>
 
 #include "driver/gpio.h"
+#include "rom/gpio.h"
 
 #include "can_regdef.h"
 #include "CAN_config.h"
+#include "soc/gpio_sig_map.h"
 
 // CAN Filter - no acceptance filter
 static CAN_filter_t __filter = { Dual_Mode, 0, 0, 0, 0, 0Xff, 0Xff, 0Xff, 0Xff };
