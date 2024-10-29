@@ -17,6 +17,6 @@
   "license": "MIT",
   "homepage": "https://github.com/lausdahl/ESP32-Arduino-CAN",
 
- "platforms": ["espressif32", "espressif8266"],
-  "frameworks": ["arduino", "espidf"]
+ "platforms": ["espressif32"],
+  "frameworks": ["espidf"]
 }
