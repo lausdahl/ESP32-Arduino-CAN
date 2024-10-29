@@ -1,0 +1,22 @@
+{
+  "name": "ESP32CAN",
+  "version": "0.0.1",
+  "description": "Can bus driver",
+  "keywords": "ESP32 CAN CANBUS",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/miwagner/ESP32-Arduino-CAN.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Michael Wagner"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lausdahl/ESP32-Arduino-CAN",
+
+ "platforms": ["espressif32", "espressif8266"],
+  "frameworks": ["arduino", "espidf"]
+}
