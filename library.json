@@ -1,5 +1,5 @@
 {
-  "name": "ESP32CAN",
+  "name": "ESP32CAN_espidf",
   "version": "0.0.3",
   "description": "Can bus driver",
   "keywords": "ESP32 CAN CANBUS",
