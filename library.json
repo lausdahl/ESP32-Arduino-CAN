@@ -1,6 +1,6 @@
 {
   "name": "ESP32CAN",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Can bus driver",
   "keywords": "ESP32 CAN CANBUS",
   "repository":
@@ -12,6 +12,10 @@
   [
     {
       "name": "Michael Wagner"
+    },
+     {
+      "name": "Kenneth Lausdahl",
+       "maintainer": true
     }
   ],
   "license": "MIT",
