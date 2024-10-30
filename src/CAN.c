@@ -228,8 +228,8 @@ int CAN_init() {
 	MODULE_CAN->BTR1.B.SAM = 0x1;
 
 	// enable all interrupts
-	MODULE_CAN->IER.U = 0xff;
-
+	MODULE_CAN->IER.U = 0xef; // ESP32 V3 0XEF     ESP32 NOT V3 0XFF
+	
 	 // Set acceptance filter	
 	MODULE_CAN->MOD.B.AFM = __filter.FM;	
     MODULE_CAN->MBX_CTRL.ACC.CODE[0] = __filter.ACR0;
